@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: ghcr.io/Yb2411/jenkins-staging:ghcr.io/yb2411/jenkins-staging:main
+          image: ghcr.io/yb2411/app-run:ghcr.io/yb2411/app-run:main
           ports:
             - containerPort: 80
           env:
